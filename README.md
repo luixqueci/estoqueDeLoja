@@ -1,0 +1,2 @@
+# estoqueDeLoja
+Trabalho Prático

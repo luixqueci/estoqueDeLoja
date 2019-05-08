@@ -1,0 +1,48 @@
+instalar angular
+ng new "nome da aplicação" -- routing
+criar api
+//escolher estilo.
+
+
+app.module.ts 
+inserir modulos que serao utilizados na aplicacao
+adicionar em imports
+
+ng generate service services/api
+
+ts->typescript
+
+construtor do apiservice.ts
+>utilizando modulo inserido, chamar lib requerida (http)
+
+httpclient - chamada rest
+
+environment.ts > inserir url q será usada com um "apelido"
+
+inserir no getorders do api.service.ts
+
+injetar dependência do api service para o componente do app
+criando construtor no app.component.ts
+>chamando api getorders  .subscribe (olha no observer no backend, se o processo finalizado e mostra para o usuario.
+>subscriber vai rodar e voltar e rodar o if de acordo com a resp
+
+app roda na porta :4200, localhost
+
+angular> trabalha em componentes, trabalhando sozinhos, example: header, conteudo e chat de amigos
+
+criar vetor vazio (any:entrar com qlqr tipo de variavel)
+e inserir a informacao no vetor
+
+dentro do componente html, criar <p> com o loop "for" para exibição das informações,
+que serao buscadas no backend(banco), baseado no loop
+irá exibir todos os itens do mesmo tipo chamado, tipo comida 1 e comida 2, com o dado que esta sendo pedido
+
+{{}} ->chamar codigo javascript
+
+ng add @angular/material -> adicionar biblioteca material.angular.io
+
+venturus for tech xisquedele
+
+
+
+banco utilizado - firebase da google
